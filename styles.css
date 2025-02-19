@@ -1,0 +1,61 @@
+html {
+    background: linear-gradient(90deg, #DBE2EF, #F9F7F7);
+    color: rgb(35, 33, 31);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.nav {
+    font-size: inherit;
+    padding-top: 1rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content:space-between;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.left > p{
+    font-weight: 600;
+}
+.right > ul {
+    display: flex;
+    gap: 2vw;
+} 
+.right > ul > li {
+    list-style: none;
+}
+hr {
+    margin-top: 0px;
+    width: 90%;
+    color: #112D4E;
+}
+.intro > div > img {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 5px;
+    width: clamp(100px, 30vw, 800px);
+    height: auto;
+}
+/* .intro {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.introright > img {
+    padding-top: 20%;
+} */
+.greeting > p{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 90%;
+    font-variation-settings: "opsz", 60;
+    font-size: 14vw;
+}
