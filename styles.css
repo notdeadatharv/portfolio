@@ -56,7 +56,7 @@ body {
 .exit > hr {
     position: relative;
     margin: auto;
-    width: 60vw;
+    width: 96%;
 }
 
 .name , .message {
@@ -132,4 +132,14 @@ footer {
 .exit > ul > li > a:hover {
     text-decoration: none;
     color: #717170;
+}
+
+
+@media (max-width : 960px) {
+  .exit > .message {
+    padding-bottom: 15px;
+  }
+  .exit > ul > li {
+    font-size: 0.5rem;
+  }
 }
