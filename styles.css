@@ -33,7 +33,7 @@ header {
   font-weight: 300;
   font-style: normal;
   font-size: clamp(0.5rem, 2vw, 1rem);
-  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .intro {
