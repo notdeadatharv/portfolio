@@ -11,6 +11,7 @@ html {
 .git_logo > a > img {
   height: 4vh;
   width: auto;
+  margin-top: 5vh;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
   height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
@@ -32,6 +33,7 @@ header {
   font-weight: 300;
   font-style: normal;
   font-size: clamp(0.5rem, 2vw, 1rem);
+  margin-top: 5vh;
 }
 
 .intro {
@@ -132,7 +134,7 @@ footer {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
@@ -145,6 +147,7 @@ footer {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: clamp(0.5rem, 0.8vw, 1rem);
+  margin-bottom: 5vh;
 }
 
 .exit > ul > li > a {
