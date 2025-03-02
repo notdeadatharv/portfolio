@@ -153,6 +153,7 @@ footer {
 .exit > ul > li > a {
   text-decoration: none;
   color: #afafaf;
+  transition: font-size 0.25s;
 }
 
 .exit > ul > li > a:hover {
